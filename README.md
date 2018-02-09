@@ -73,7 +73,7 @@ For this assignment, you will re-create various animations demonstrating a combi
 <img src="https://media.giphy.com/media/26DN7fdyFRqfBjqMw/giphy.gif" width="400px" />
 
 #### Techniques Used
-* Torus SDF from IQ is used to rendeer the wireframe and the spere SDF is used to render white dots. Different SDF functions has different color index to decided its color. pModPolar function from [hg_sdf](http://mercury.sexy/hg_sdf/) is used to repeat the torus around the origin by a fixed angle, The dots will rotate along with the frame with a certain lag.
+* The scene is rendered with raymarching. Orthographic projection is used instead of perspective one. Torus SDF from IQ is used to rendeer the wireframe and the spere SDF is used to render white dots. Different SDF functions has different color index to decided its color. pModPolar function from [hg_sdf](http://mercury.sexy/hg_sdf/) is used to repeat the torus around the origin by a fixed angle, The dots will rotate along with the frame with a certain lag.
 
 #### Motion Functions
 
